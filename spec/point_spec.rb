@@ -1,7 +1,7 @@
 require 'spec'
 
 module ServerSideGoogleMaps
-  describe(Point) do
+  describe(Server) do
     describe('#initialize') do
       it('should set latitude and longitude') do
         point = Point.new(1.2, 3.4)

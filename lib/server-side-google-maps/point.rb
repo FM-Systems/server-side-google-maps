@@ -1,6 +1,6 @@
 module ServerSideGoogleMaps
   class Point
-    RADIUS_OF_EARTH = 6367000 # metres
+    RADIUS_OF_EARTH = 6367000 # metres - FIXME should this be 6371000 metres ?
     DEGREES_TO_RADIANS = Math::PI / 180
 
     attr_reader(:latitude, :longitude, :object, :elevation)
